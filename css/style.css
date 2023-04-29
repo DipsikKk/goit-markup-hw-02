@@ -46,7 +46,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -54,6 +54,7 @@ body{
 
 .logo-item-foot{
     color: #F4F4FD;
+    line-height: 1.17;
 }
 
 .logo-item{
@@ -70,6 +71,7 @@ body{
 }
 
 .site-nav-item{
+    color: #2e2f42;
     font-family:  Roboto , sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -111,10 +113,114 @@ body{
 
 .contact-link:hover,
 .contact-link:focus{
-    color: var(--brand-color);
+    color: #404bbf;
 }
 
-/* Portfolio */
+/* Main page [Studio] */
+
+.first-section,
+.second-section,
+.third-section,
+.four-section{
+
+}
+
+/* first section */
+.hero{
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background-color: #2E2F42;
+}
+
+.order-service{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.order-service:hover,
+.order-service:focus{
+    background-color: #404BBF
+}
+
+/* second section */
+
+.direction-list-cap{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.direction-list-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em ;
+}
+
+
+/* third section */
+
+.about-project{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+/* Four section */
+
+.third-section{
+    color: #F4F4FD;
+}
+
+.team{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.team-photo{
+    background-color: #ffffff;
+}
+
+.team-name{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+
+}
+
+.team-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+/* Second page [Portfolio] */
 
 .portfolio-nav{
     list-style: none;
