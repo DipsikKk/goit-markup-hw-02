@@ -231,17 +231,20 @@ body{
 }
 .portfolio-nav-button{
     background-color:#F4F4FD ;
-    color: var(--brand-color);
+    color: #4d5ae5;
     font-family: 'Roboto' , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
 
 }
 
 .portfolio-nav-button:hover,
 .portfolio-nav-button:focus {
-    background-color: var(--hover-color);
+    background-color: #404BBF;
     color: #ffffff;
 }
 
