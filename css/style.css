@@ -39,6 +39,10 @@ body{
     text-decoration: none;
 }
 
+.current{
+    text-decoration: underline;
+}
+
 /* Logo */
 
 .logo{
@@ -118,11 +122,8 @@ body{
 
 /* Main page [Studio] */
 
-.first-section,
-.second-section,
-.third-section,
-.four-section{
-
+.first-section{
+    background-color: #2e2f42;
 }
 
 /* first section */
@@ -132,7 +133,6 @@ body{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: #2E2F42;
 }
 
 .order-service{
@@ -173,7 +173,7 @@ body{
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -182,22 +182,25 @@ body{
 
 /* Four section */
 
-.third-section{
+.four-section{
     color: #F4F4FD;
 }
+
 
 .team{
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
 }
 
-.team-photo{
-    background-color: #ffffff;
+
+
+.team-item{
+    background-color: #FFFFFF;
 }
 
 .team-name{
@@ -210,6 +213,7 @@ body{
 }
 
 .team-text{
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
