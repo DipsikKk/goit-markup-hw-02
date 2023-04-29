@@ -11,6 +11,8 @@
 
 /* P footer color #F4F4FD (Cloud) */
 
+/* Global  */
+
 :root{
     --brand-color: #4D5AE5;
     --hover-color:#404BBF;
@@ -20,22 +22,45 @@
 }
 
 body{
-    font-family: Roboto;
+    font-family: "Roboto" , sans-serif;
+    color: var(--secondary-color);
+    background-color: #ffffff;
 }
 
 .hidden{
     display: none;
 }
 
-.logo{
-    color:#4D5AE5;
-    font-family: Raleway;
-    font-weight: 800;
-}
-
-.list{
+.list {
     list-style: none;
 }
+
+.link{
+    text-decoration: none;
+}
+
+/* Logo */
+
+.logo{
+    color:#4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.logo-item-foot{
+    color: #F4F4FD;
+}
+
+.logo-item{
+    color:#2e2f42;
+}
+
+/* Menu nav */
 
 .site-nav{
     color: var(--main-color);
@@ -46,11 +71,32 @@ body{
 
 .site-nav-item{
     font-family:  Roboto , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus {
+    color: #404bbf;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.contact-info{
+    font-style: normal;
 }
 
 .contact{
     list-style: none;
 }
+
 
 .contact-link{
     color: var(--secondary-color);
@@ -60,12 +106,15 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 .contact-link:hover,
 .contact-link:focus{
     color: var(--brand-color);
 }
+
+/* Portfolio */
 
 .portfolio-nav{
     list-style: none;
@@ -106,6 +155,8 @@ body{
         line-height: 1.5;
     
 }
+
+/* Footer */
 
 footer{
     background-color: var(--main-color);
