@@ -277,6 +277,6 @@ footer{
     background-color: var(--main-color);
 }
 
-footer  p {
+.foot-text {
     color: #F4F4FD;
 }
